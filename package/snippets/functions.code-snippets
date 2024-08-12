@@ -1,0 +1,426 @@
+{
+  "macro-json-ad662f": {
+    "scope": "rust",
+    "description": "json!{...}",
+    "prefix": "json!{}",
+    "body": [
+      "json!{${1:}}"
+    ]
+  },
+  "method-unwrap-4bccf6": {
+    "scope": "rust",
+    "description": ".unwrap()",
+    "prefix": ".unwrap()",
+    "body": [
+      ".unwrap()"
+    ]
+  },
+  "method-split-3f7114": {
+    "scope": "rust",
+    "description": ".split(...)",
+    "prefix": ".split()",
+    "body": [
+      ".split(${1:})"
+    ]
+  },
+  "method-replace-f4a0f2": {
+    "scope": "rust",
+    "description": ".replace(...)",
+    "prefix": ".replace()",
+    "body": [
+      ".replace(${1:})"
+    ]
+  },
+  "static-method-from_utf16_lossy-3454b5": {
+    "scope": "rust",
+    "description": "::from_utf16_lossy(...)",
+    "prefix": "::from_utf16_lossy()",
+    "body": [
+      "::from_utf16_lossy(${1:})"
+    ]
+  },
+  "macro-vec-0c0b63": {
+    "scope": "rust",
+    "description": "vec![...]",
+    "prefix": "vec![]",
+    "body": [
+      "vec![${1:}]"
+    ]
+  },
+  "macro-deq-465984": {
+    "scope": "rust",
+    "description": "deq![...]",
+    "prefix": "deq![]",
+    "body": [
+      "deq![${1:}]"
+    ]
+  },
+  "method-split_terminator-f04598": {
+    "scope": "rust",
+    "description": ".split_terminator(...)",
+    "prefix": ".split_terminator()",
+    "body": [
+      ".split_terminator(${1:})"
+    ]
+  },
+  "method-replacen-ee690f": {
+    "scope": "rust",
+    "description": ".replacen(...)",
+    "prefix": ".replacen()",
+    "body": [
+      ".replacen(${1:})"
+    ]
+  },
+  "method-expect-3321bb": {
+    "scope": "rust",
+    "description": ".expect(...)",
+    "prefix": ".expect()",
+    "body": [
+      ".expect(${1:})"
+    ]
+  },
+  "method-split_once-d39cfd": {
+    "scope": "rust",
+    "description": ".split_once(...)",
+    "prefix": ".split_once()",
+    "body": [
+      ".split_once(${1:})"
+    ]
+  },
+  "method-repeat-b72263": {
+    "scope": "rust",
+    "description": ".repeat(...)",
+    "prefix": ".repeat()",
+    "body": [
+      ".repeat(${1:})"
+    ]
+  },
+  "macro-set-6e7a96": {
+    "scope": "rust",
+    "description": "set![...]",
+    "prefix": "set![]",
+    "body": [
+      "set![${1:}]"
+    ]
+  },
+  "macro-list-be07ff": {
+    "scope": "rust",
+    "description": "list![...]",
+    "prefix": "list![]",
+    "body": [
+      "list![${1:}]"
+    ]
+  },
+  "method-splitn-6d5354": {
+    "scope": "rust",
+    "description": ".splitn(...)",
+    "prefix": ".splitn()",
+    "body": [
+      ".splitn(${1:})"
+    ]
+  },
+  "macro-rawbson-3bdd12": {
+    "scope": "rust",
+    "description": "rawbson!{...}",
+    "prefix": "rawbson!{}",
+    "body": [
+      "rawbson!{${1:}}"
+    ]
+  },
+  "macro-html-88287c": {
+    "scope": "rust",
+    "description": "html!{...}",
+    "prefix": "html!{}",
+    "body": [
+      "html!{${1:}}"
+    ]
+  },
+  "macro-println-6fcd45": {
+    "scope": "rust",
+    "description": "println!(...)",
+    "prefix": "println!()",
+    "body": [
+      "println!(${1:})"
+    ]
+  },
+  "macro-eprint-acfd81": {
+    "scope": "rust",
+    "description": "eprint!(...)",
+    "prefix": "eprint!()",
+    "body": [
+      "eprint!(${1:})"
+    ]
+  },
+  "macro-bson-b69b31": {
+    "scope": "rust",
+    "description": "bson!{...}",
+    "prefix": "bson!{}",
+    "body": [
+      "bson!{${1:}}"
+    ]
+  },
+  "method-to_lowercase-0de1bf": {
+    "scope": "rust",
+    "description": ".to_lowercase()",
+    "prefix": ".to_lowercase()",
+    "body": [
+      ".to_lowercase()"
+    ]
+  },
+  "method-map-1766ee": {
+    "scope": "rust",
+    "description": ".map(...)",
+    "prefix": ".map()",
+    "body": [
+      ".map(${1:})"
+    ]
+  },
+  "static-method-with_capacity-369b90": {
+    "scope": "rust",
+    "description": "::with_capacity(...)",
+    "prefix": "::with_capacity()",
+    "body": [
+      "::with_capacity(${1:})"
+    ]
+  },
+  "method-rsplit_terminator-ce5d9e": {
+    "scope": "rust",
+    "description": ".rsplit_terminator(...)",
+    "prefix": ".rsplit_terminator()",
+    "body": [
+      ".rsplit_terminator(${1:})"
+    ]
+  },
+  "macro-todo-c8cd42": {
+    "scope": "rust",
+    "description": "todo!(...)",
+    "prefix": "todo!()",
+    "body": [
+      "todo!(${1:})"
+    ]
+  },
+  "macro-eprintln-24d12e": {
+    "scope": "rust",
+    "description": "eprintln!(...)",
+    "prefix": "eprintln!()",
+    "body": [
+      "eprintln!(${1:})"
+    ]
+  },
+  "macro-map-5bb3e0": {
+    "scope": "rust",
+    "description": "map!{...}",
+    "prefix": "map!{}",
+    "body": [
+      "map!{${1:}}"
+    ]
+  },
+  "method-unwrap_or-e89e66": {
+    "scope": "rust",
+    "description": ".unwrap_or(...)",
+    "prefix": ".unwrap_or()",
+    "body": [
+      ".unwrap_or(${1:})"
+    ]
+  },
+  "method-to_uppercase-9f2354": {
+    "scope": "rust",
+    "description": ".to_uppercase()",
+    "prefix": ".to_uppercase()",
+    "body": [
+      ".to_uppercase()"
+    ]
+  },
+  "static-method-from_utf8_lossy-106d91": {
+    "scope": "rust",
+    "description": "::from_utf8_lossy(...)",
+    "prefix": "::from_utf8_lossy()",
+    "body": [
+      "::from_utf8_lossy(${1:})"
+    ]
+  },
+  "macro-str-583346": {
+    "scope": "rust",
+    "description": "str!(...)",
+    "prefix": "str!()",
+    "body": [
+      "str!(${1:})"
+    ]
+  },
+  "static-method-default-95f71b": {
+    "scope": "rust",
+    "description": "::default()",
+    "prefix": "::default()",
+    "body": [
+      "::default()"
+    ]
+  },
+  "macro-doc-54d8be": {
+    "scope": "rust",
+    "description": "doc!{...}",
+    "prefix": "doc!{}",
+    "body": [
+      "doc!{${1:}}"
+    ]
+  },
+  "static-method-from_utf8-fd0fd2": {
+    "scope": "rust",
+    "description": "::from_utf8(...)",
+    "prefix": "::from_utf8()",
+    "body": [
+      "::from_utf8(${1:})"
+    ]
+  },
+  "static-method-from_utf16-97ad53": {
+    "scope": "rust",
+    "description": "::from_utf16(...)",
+    "prefix": "::from_utf16()",
+    "body": [
+      "::from_utf16(${1:})"
+    ]
+  },
+  "static-method-new-3acc1c": {
+    "scope": "rust",
+    "description": "::new(...)",
+    "prefix": "::new()",
+    "body": [
+      "::new(${1:})"
+    ]
+  },
+  "method-rsplit-304f01": {
+    "scope": "rust",
+    "description": ".rsplit(...)",
+    "prefix": ".rsplit()",
+    "body": [
+      ".rsplit(${1:})"
+    ]
+  },
+  "method-rsplitn-db2648": {
+    "scope": "rust",
+    "description": ".rsplitn(...)",
+    "prefix": ".rsplitn()",
+    "body": [
+      ".rsplitn(${1:})"
+    ]
+  },
+  "macro-heap-c1e5e8": {
+    "scope": "rust",
+    "description": "heap![...]",
+    "prefix": "heap![]",
+    "body": [
+      "heap![${1:}]"
+    ]
+  },
+  "macro-rawdoc-e773a1": {
+    "scope": "rust",
+    "description": "rawdoc!{...}",
+    "prefix": "rawdoc!{}",
+    "body": [
+      "rawdoc!{${1:}}"
+    ]
+  },
+  "macro-input-8fec8f": {
+    "scope": "rust",
+    "description": "input!(...)",
+    "prefix": "input!()",
+    "body": [
+      "input!(${1:})"
+    ]
+  },
+  "method-map_err-91cbd7": {
+    "scope": "rust",
+    "description": ".map_err(...)",
+    "prefix": ".map_err()",
+    "body": [
+      ".map_err(${1:Error::from})"
+    ]
+  },
+  "macro-panic-18f2b4": {
+    "scope": "rust",
+    "description": "panic!(...)",
+    "prefix": "panic!()",
+    "body": [
+      "panic!(${1:})"
+    ]
+  },
+  "method-rsplit_once-da6859": {
+    "scope": "rust",
+    "description": ".rsplit_once(...)",
+    "prefix": ".rsplit_once()",
+    "body": [
+      ".rsplit_once(${1:})"
+    ]
+  },
+  "method-unwrap_or_else-b060fb": {
+    "scope": "rust",
+    "description": ".unwrap_or_else(...)",
+    "prefix": ".unwrap_or_else()",
+    "body": [
+      ".unwrap_or_else(${1:})"
+    ]
+  },
+  "method-split_whitespace-d5706d": {
+    "scope": "rust",
+    "description": ".split_whitespace(...)",
+    "prefix": ".split_whitespace()",
+    "body": [
+      ".split_whitespace(${1:})"
+    ]
+  },
+  "macro-unreachable-0808b2": {
+    "scope": "rust",
+    "description": "unreachable!(...)",
+    "prefix": "unreachable!()",
+    "body": [
+      "unreachable!(${1:})"
+    ]
+  },
+  "static-method-from-ff1e13": {
+    "scope": "rust",
+    "description": "::from(...)",
+    "prefix": "::from()",
+    "body": [
+      "::from(${1:})"
+    ]
+  },
+  "macro-format-b4b1dd": {
+    "scope": "rust",
+    "description": "format!(...)",
+    "prefix": "format!()",
+    "body": [
+      "format!(${1:})"
+    ]
+  },
+  "macro-unimplemented-1c6ea5": {
+    "scope": "rust",
+    "description": "unimplemented!(...)",
+    "prefix": "unimplemented!()",
+    "body": [
+      "unimplemented!(${1:})"
+    ]
+  },
+  "macro-btree_set-f00f00": {
+    "scope": "rust",
+    "description": "btree_set![...]",
+    "prefix": "btree_set![]",
+    "body": [
+      "btree_set![${1:}]"
+    ]
+  },
+  "macro-print-10a1ac": {
+    "scope": "rust",
+    "description": "print!(...)",
+    "prefix": "print!()",
+    "body": [
+      "print!(${1:})"
+    ]
+  },
+  "macro-btree_map-e64bb8": {
+    "scope": "rust",
+    "description": "btree_map!{...}",
+    "prefix": "btree_map!{}",
+    "body": [
+      "btree_map!{${1:}}"
+    ]
+  }
+}

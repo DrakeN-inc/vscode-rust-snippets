@@ -1,0 +1,106 @@
+{
+  "operator-use-prelude-fd017b": {
+    "scope": "rust",
+    "description": "use crate::prelude::*;",
+    "prefix": "use prelude::",
+    "body": [
+      "use crate::prelude::${1:*};"
+    ]
+  },
+  "operator-const-bfd75d": {
+    "scope": "rust",
+    "description": "const ...:... = ...;",
+    "prefix": "const ",
+    "body": [
+      "const $1: $2 = $3;"
+    ]
+  },
+  "operator-let-b7671b": {
+    "scope": "rust",
+    "description": "let ... = ...;",
+    "prefix": "let ",
+    "body": [
+      "let $1 = $2;"
+    ]
+  },
+  "operator-use-super-926fe8": {
+    "scope": "rust",
+    "description": "use super::...;",
+    "prefix": "use super::",
+    "body": [
+      "use super::$1;"
+    ]
+  },
+  "operator-use-crate-7d51a5": {
+    "scope": "rust",
+    "description": "use crate::...;",
+    "prefix": "use crate::",
+    "body": [
+      "use crate::$1;"
+    ]
+  },
+  "operator-static-ecbeeb": {
+    "scope": "rust",
+    "description": "static ...:... = ...;",
+    "prefix": "static ",
+    "body": [
+      "static $1: $2 = $3;"
+    ]
+  },
+  "operator-mod-1e0db0": {
+    "scope": "rust",
+    "description": "mod ...;",
+    "prefix": "mod ",
+    "body": [
+      "mod ${1:};"
+    ]
+  },
+  "operator-break-return-dcc9c6": {
+    "scope": "rust",
+    "description": "break ...;",
+    "prefix": "break ",
+    "body": [
+      "break ${1:};"
+    ]
+  },
+  "operator-break-96e38d": {
+    "scope": "rust",
+    "description": "break;",
+    "prefix": "break",
+    "body": [
+      "break;"
+    ]
+  },
+  "operator-continue-b4bf5d": {
+    "scope": "rust",
+    "description": "continue;",
+    "prefix": "continue",
+    "body": [
+      "continue;"
+    ]
+  },
+  "operator-use-b894d2": {
+    "scope": "rust",
+    "description": "use ...::...;",
+    "prefix": "use ",
+    "body": [
+      "use $1::$2;"
+    ]
+  },
+  "operator-return-a56f38": {
+    "scope": "rust",
+    "description": "return ...;",
+    "prefix": "return ",
+    "body": [
+      "return ${1:};"
+    ]
+  },
+  "operator-mod-use-a1b245": {
+    "scope": "rust",
+    "description": "mod ...;  pub use ...::...;",
+    "prefix": "mod use ",
+    "body": [
+      "mod $1;  pub use $1::$2;"
+    ]
+  }
+}

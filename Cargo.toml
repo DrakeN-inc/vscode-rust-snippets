@@ -1,0 +1,11 @@
+[package]
+name = "vscode-rust-snippets"
+description = "The Rust snippets package for Visual Studio Code"
+version = "0.1.0"
+edition = "2021"
+authors = ["DrakeN-inc <t.me/DrakeN_inc>"]
+license = "MIT"
+repository = "https://github.com/DrakeN-inc/vscode-rust-snippets"
+
+[dependencies]
+vscode-generator = "0.1.2"

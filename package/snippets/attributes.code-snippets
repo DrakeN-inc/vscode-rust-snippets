@@ -1,0 +1,74 @@
+{
+  "attr-cfg-58cef8": {
+    "scope": "rust",
+    "description": "#[cfg(...)]",
+    "prefix": "#[cfg()]",
+    "body": [
+      "#[cfg($1)]"
+    ]
+  },
+  "attr-proc_macro_attribute-176021": {
+    "scope": "rust",
+    "description": "#[proc_macro_attribute]",
+    "prefix": "#[proc_macro_attribute]",
+    "body": [
+      "#[proc_macro_attribute]"
+    ]
+  },
+  "attr-proc_macro_derive-ed484a": {
+    "scope": "rust",
+    "description": "#[proc_macro_derive(..., attributes(...))]",
+    "prefix": "#[proc_macro_derive()]",
+    "body": [
+      "#[proc_macro_derive($1, attributes($2))]"
+    ]
+  },
+  "attr-derive-9776d0": {
+    "scope": "rust",
+    "description": "#[derive(...)]",
+    "prefix": "#[derive()]",
+    "body": [
+      "#[derive(${1|Debug\\, Clone,Eq\\, PartialEq,Ord\\, PartialOrd,Serialize\\, Deserialize,Debug,Display,Clone,Copy,Default,Eq,PartialEq,Ord,PartialOrd,Serialize,Deserialize|})]"
+    ]
+  },
+  "attr-macro_use-bc6f17": {
+    "scope": "rust",
+    "description": "#[macro_use]",
+    "prefix": "#[macro_use]",
+    "body": [
+      "#[macro_use]"
+    ]
+  },
+  "attr-allow-a51fa4": {
+    "scope": "rust",
+    "description": "#[allow(...)]",
+    "prefix": "#[allow()]",
+    "body": [
+      "#[allow(${1|dead_code,unused_variables,non_snake_case|})]"
+    ]
+  },
+  "attr-proc_macro-62713f": {
+    "scope": "rust",
+    "description": "#[proc_macro]",
+    "prefix": "#[proc_macro]",
+    "body": [
+      "#[proc_macro]"
+    ]
+  },
+  "attr-test-4f7b89": {
+    "scope": "rust",
+    "description": "#[test]",
+    "prefix": "#[test]",
+    "body": [
+      "#[test]"
+    ]
+  },
+  "attr-serde-ceef8b": {
+    "scope": "rust",
+    "description": "#[serde(...)]",
+    "prefix": "#[serde()]",
+    "body": [
+      "#[serde($1)]"
+    ]
+  }
+}

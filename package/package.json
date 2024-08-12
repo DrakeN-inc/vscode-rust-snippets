@@ -1,0 +1,41 @@
+{
+  "name": "vscode-rust-snippets",
+  "displayName": "Rust snippets",
+  "description": "The Rust programming language snippets for Visual Studio Code",
+  "version": "0.1.0",
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrakeN-inc/vscode-rust-snippets"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "rust",
+        "path": "snippets/text.code-snippets"
+      },
+      {
+        "language": "rust",
+        "path": "snippets/attributes.code-snippets"
+      },
+      {
+        "language": "rust",
+        "path": "snippets/blocks.code-snippets"
+      },
+      {
+        "language": "rust",
+        "path": "snippets/operators.code-snippets"
+      },
+      {
+        "language": "rust",
+        "path": "snippets/functions.code-snippets"
+      }
+    ]
+  }
+}

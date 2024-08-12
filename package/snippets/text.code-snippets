@@ -1,0 +1,42 @@
+{
+  "comment-fixme-927bf3": {
+    "scope": "rust",
+    "description": "// FIXME: ...",
+    "prefix": "/FIXME",
+    "body": [
+      "// FIXME: ${1:...}"
+    ]
+  },
+  "print-hello-41d6dc": {
+    "scope": "rust",
+    "description": "println!(\"Hello, world!\");  // DEBUG: \"Hello, world!\" message",
+    "prefix": "hello",
+    "body": [
+      "println!(\"Hello, world!\");  // DEBUG: \"Hello, world!\" message"
+    ]
+  },
+  "comment-note-7b6ce0": {
+    "scope": "rust",
+    "description": "// NOTE: ...",
+    "prefix": "/NOTE",
+    "body": [
+      "// NOTE: ${1:...}"
+    ]
+  },
+  "comment-todo-56bc9b": {
+    "scope": "rust",
+    "description": "// TODO: ...",
+    "prefix": "/TODO",
+    "body": [
+      "// TODO: ${1:...}"
+    ]
+  },
+  "comment-debug-a76672": {
+    "scope": "rust",
+    "description": "// DEBUG: ...",
+    "prefix": "/DEBUG",
+    "body": [
+      "// DEBUG: ${1:...}"
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "block-enum-c4cc31": {
+    "scope": "rust",
+    "description": "enum ... { ... }",
+    "prefix": "enum {}",
+    "body": [
+      "enum $1 {\n    $2\n}"
+    ]
+  },
+  "block-enum-impl-65375d": {
+    "scope": "rust",
+    "description": "enum ... { ... }  impl ... { ... }",
+    "prefix": "enum {} impl {}",
+    "body": [
+      "enum $1 {\n    $2\n}",
+      "",
+      "impl $1 {\n    $3\n}"
+    ]
+  },
+  "block-match-option-4d4ef1": {
+    "scope": "rust",
+    "description": "match Option<T> { ... }",
+    "prefix": "match Option<T> {}",
+    "body": [
+      "match $1 {",
+      "    Some(v) => $2,",
+      "    None => $3",
+      "}"
+    ]
+  },
+  "block-macro_rules-a8ceb9": {
+    "scope": "rust",
+    "description": "macro_rules! ... { ... }",
+    "prefix": "macro_rules! {}",
+    "body": [
+      "macro_rules! $1 {",
+      "    ($2) => {",
+      "        $3",
+      "    };",
+      "}"
+    ]
+  },
+  "block-fn-ef5e61": {
+    "scope": "rust",
+    "description": "fn ...() { ... }",
+    "prefix": "fn() {}",
+    "body": [
+      "fn $1($2) {\n    $3\n}"
+    ]
+  },
+  "block-struct-impl-a03f92": {
+    "scope": "rust",
+    "description": "struct ... { ... }  impl ... { ... }",
+    "prefix": "struct {} impl {}",
+    "body": [
+      "struct $1 {\n    $2\n}",
+      "",
+      "impl $1 {\n    $3\n}"
+    ]
+  },
+  "block-struct-1de972": {
+    "scope": "rust",
+    "description": "struct ... { ... }",
+    "prefix": "struct {}",
+    "body": [
+      "struct $1 {\n    $2\n}"
+    ]
+  },
+  "fn-main-47aba2": {
+    "scope": "rust",
+    "description": "fn main() { ... }",
+    "prefix": "fn main() {}",
+    "body": [
+      "fn main() {",
+      "    $1",
+      "}"
+    ]
+  },
+  "block-if-else-fd097c": {
+    "scope": "rust",
+    "description": "if ... { ... } else { ... }",
+    "prefix": "if {} else {}",
+    "body": [
+      "if $1 {",
+      "    $2",
+      "} else {",
+      "    $3",
+      "}"
+    ]
+  },
+  "block-for-key-value-621415": {
+    "scope": "rust",
+    "description": "for (k, v) in ... { ... }",
+    "prefix": "for (k, v) {}",
+    "body": [
+      "for ${1:(k, v)} in ${2:.enumerate()} {",
+      "    $3",
+      "}"
+    ]
+  },
+  "block-match-eb6621": {
+    "scope": "rust",
+    "description": "match ... { ... }",
+    "prefix": "match {}",
+    "body": [
+      "match $1 {\n    $2\n}"
+    ]
+  },
+  "block-mod-3227dd": {
+    "scope": "rust",
+    "description": "mod { ... }",
+    "prefix": "mod {}",
+    "body": [
+      "mod {\n    $1\n}"
+    ]
+  },
+  "block-loop-55b5ca": {
+    "scope": "rust",
+    "description": "loop { ... }",
+    "prefix": "loop {}",
+    "body": [
+      "loop {\n    $1\n}"
+    ]
+  },
+  "block-for-800c18": {
+    "scope": "rust",
+    "description": "for v in ... { ... }",
+    "prefix": "for {}",
+    "body": [
+      "for ${1:v} in $2 {",
+      "    $3",
+      "}"
+    ]
+  },
+  "block-if-871563": {
+    "scope": "rust",
+    "description": "if ... { ... }",
+    "prefix": "if {}",
+    "body": [
+      "if $1 {\n    $2\n}"
+    ]
+  },
+  "block-while-782e00": {
+    "scope": "rust",
+    "description": "while ... { ... }",
+    "prefix": "while {}",
+    "body": [
+      "while $1 {\n    $2\n}"
+    ]
+  },
+  "block-match-result-07d185": {
+    "scope": "rust",
+    "description": "match Result<T, E> { ... }",
+    "prefix": "match Result<T, E> {}",
+    "body": [
+      "match $1 {",
+      "    Ok(v) => $2,",
+      "    Err(e) => $3",
+      "}"
+    ]
+  },
+  "fn-async-main-35f552": {
+    "scope": "rust",
+    "description": "async fn main() { ... }",
+    "prefix": "async fn main() {}",
+    "body": [
+      "#[${1|tokio,async_std,actix_web,axum|}::main]",
+      "async fn main() {",
+      "    $2",
+      "}"
+    ]
+  },
+  "block-short-if-else-0a1359": {
+    "scope": "rust",
+    "description": "if ... { ... }else{ ... }",
+    "prefix": "if? {}",
+    "body": [
+      "if $1 { $2 }else{ $3 }"
+    ]
+  }
+}
